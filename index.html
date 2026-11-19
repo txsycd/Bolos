@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bolo's · Helados de bolsita con fruta de verdad</title>
+<meta name="description" content="Bolos de fruta congelados en bolsita: más fruta, más jugo y más verano. Sin conservantes ni colorantes. Packs para el freezer con delivery en Magdalena del Mar y Pueblo Libre.">
+<meta name="theme-color" content="#F3FBF7">
+<meta property="og:title" content="Bolo's · Helados de bolsita con fruta de verdad">
+<meta property="og:description" content="Más fruta. Más jugo. Más verano. Bolos de jugo natural congelados en bolsita, directo a tu freezer.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230E2A2B'/%3E%3Ccircle cx='24' cy='23' r='5.5' fill='%23C9F24D'/%3E%3Ccircle cx='41' cy='22' r='4.5' fill='%23C9F24D'/%3E%3Ccircle cx='33' cy='37' r='5' fill='%23C9F24D'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<div class="announce">
+  <div class="wrap announce__inner">
+    <span>Delivery en Magdalena del Mar y Pueblo Libre</span>
+    <span class="announce__sep" aria-hidden="true">·</span>
+    <span>Envío gratis desde <strong data-envio-gratis>S/ 25</strong></span>
+    <span class="announce__sep announce__sep--lg" aria-hidden="true">·</span>
+    <span class="announce__late">Pedidos antes de las 15 h llegan hoy</span>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header__inner">
+    <a class="logo" href="#inicio" aria-label="Bolo's, ir al inicio">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40">
+          <circle cx="20" cy="20" r="19" fill="#0E2A2B"/>
+          <circle cx="20" cy="20" r="18.2" fill="none" stroke="#C9F24D" stroke-opacity=".45"/>
+          <circle cx="15" cy="15" r="3.1" fill="#C9F24D"/>
+          <circle cx="25.4" cy="14.2" r="2.5" fill="#C9F24D"/>
+          <circle cx="21" cy="23.4" r="2.8" fill="#C9F24D"/>
+          <path d="M8.6 13.4a13 13 0 0 1 8.4-5.2" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="logo__text">Bolo<span class="logo__apos">'</span>s</span>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#sabores">Sabores</a>
+      <a href="#packs">Packs</a>
+      <a href="#nosotros">Historia</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn cart-btn" id="cartBtn" type="button" aria-label="Abrir mi pedido">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L20.5 7H6"/>
+          <circle cx="9.5" cy="20" r="1.5"/><circle cx="17.5" cy="20" r="1.5"/>
+        </svg>
+        <span class="cart-btn__count" data-cart-count hidden></span>
+      </button>
+      <a class="btn btn--primary header__cta" href="#packs">Hacer pedido</a>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sabores">Sabores</a>
+    <a href="#packs">Packs</a>
+    <a href="#nosotros">Historia</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#preguntas">Preguntas</a>
+    <a class="btn btn--primary" href="#packs">Armar mi pack</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="inicio">
+    <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <span class="eyebrow"><span class="eyebrow__dot"></span> Helados de bolsita · Fruta de verdad</span>
+        <h1>Más fruta. Más jugo. <em>Más verano.</em></h1>
+        <p class="hero__lead">El bolo de siempre, pero con más fruta y más jugo. Bolos de fruta congelados en bolsita, sin colorantes ni conservantes. Se muerden, se disfrutan y se repiten.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#sabores">
+            Ver sabores
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#packs">Armar mi pack</a>
+        </div>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="hero__disc"></div>
+        <div class="hero__ring"></div>
+        <span class="hero__flake hero__flake--1">✦</span>
+        <span class="hero__flake hero__flake--2">✦</span>
+        <span class="hero__flake hero__flake--3">✦</span>
+
+        <div class="hero__bolo hero__bolo--back" data-bolo="lucuma"></div>
+        <div class="hero__bolo hero__bolo--side" data-bolo="maracuya"></div>
+        <div class="hero__bolo hero__bolo--front" data-bolo="fresa"></div>
+
+        <div class="chip chip--1">
+          <span class="chip__icon chip__icon--green">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 3.5 5 6.4 5 9.3A5 5 0 0 1 7 12.3C7 9.4 9 6.5 12 3z"/><path d="M12 21v-6"/></svg>
+          </span>
+          100% fruta
+        </div>
+        <div class="chip chip--2">
+          <strong>0</strong> conservantes
+        </div>
+        <div class="chip chip--3">
+          <span class="chip__icon chip__icon--gold">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6.1 6.6.9-4.8 4.6 1.2 6.5L12 17.5 6.1 20.6l1.2-6.5L2.5 9.5l6.6-.9z"/></svg>
+          </span>
+          Congelado hoy
+        </div>
+
+        <div class="hero__seal">
+          <svg viewBox="0 0 160 160">
+            <defs><path id="sealCircleB" d="M80,80 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0" fill="none"/></defs>
+            <circle cx="80" cy="80" r="78" fill="#0E2A2B"/>
+            <circle cx="80" cy="80" r="71" fill="none" stroke="#C9F24D" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+            <text class="seal__ring"><textPath href="#sealCircleB" startOffset="0">BOLO'S · FRUTA DE VERDAD ·</textPath></text>
+            <text x="80" y="80" text-anchor="middle" font-family="Bricolage Grotesque, Manrope, sans-serif" font-size="26" font-weight="800" fill="#C9F24D">100%</text>
+            <text x="80" y="98" text-anchor="middle" font-family="Manrope, sans-serif" font-size="7.5" letter-spacing="2.6" fill="#F3FBF7">FRUTA</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <div class="marquee__group">
+        <span>Fruta de verdad</span><i>✦</i>
+        <span>Sin colorantes</span><i>✦</i>
+        <span>Más fruta, más jugo</span><i>✦</i>
+        <span>Congelado hoy</span><i>✦</i>
+        <span>Envío en el día</span><i>✦</i>
+        <span>Se muerde y se disfruta</span><i>✦</i>
+      </div>
+      <div class="marquee__group">
+        <span>Fruta de verdad</span><i>✦</i>
+        <span>Sin colorantes</span><i>✦</i>
+        <span>Más fruta, más jugo</span><i>✦</i>
+        <span>Congelado hoy</span><i>✦</i>
+        <span>Envío en el día</span><i>✦</i>
+        <span>Se muerde y se disfruta</span><i>✦</i>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="sabores">
+    <div class="wrap">
+      <header class="section__head reveal">
+        <span class="eyebrow">Los sabores</span>
+        <h2>Seis formas de <em>refrescarte</em>.</h2>
+        <p>Fruta de verdad, hielo y leche. Tres sabores con leche y tres sin leche: elige tu favorito o lleva el pack completo.</p>
+      </header>
+      <div class="flavors" id="flavorsGrid"></div>
+      <p class="section__note reveal">¿Primera vez? El <a href="#packs">Pack Refri</a> trae seis sabores para probar todo el catálogo.</p>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="packs">
+    <div class="wrap">
+      <header class="section__head reveal">
+        <span class="eyebrow">Packs para el freezer</span>
+        <h2>Llena el freezer, <em>ganas tú</em>.</h2>
+        <p>Packs armados para durar: más bolos, mejor precio y envío gratis desde <span data-envio-gratis>S/ 25</span>. Eliges los sabores al confirmar el pedido.</p>
+      </header>
+      <div class="combos" id="combosGrid"></div>
+      <div class="shipping-banner reveal">
+        <span class="shipping-banner__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
+        </span>
+        <p><strong>Envío gratis desde <span data-envio-gratis>S/ 25</span></strong> en Magdalena del Mar y Pueblo Libre · Delivery S/ 5 en pedidos menores · Retiro sin cargo coordinado por WhatsApp. Viajan en caja térmica con hielo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="nosotros">
+    <div class="wrap story">
+      <div class="story__art reveal">
+        <div class="story__panel">
+          <span class="story__ghost" aria-hidden="true">frío</span>
+          <div class="story__bolo story__bolo--back" data-bolo="maracuya" aria-hidden="true"></div>
+          <div class="story__bolo story__bolo--front" data-bolo="fresa" aria-hidden="true"></div>
+          <div class="story__tag story__tag--1">
+            <span class="story__tag-dot"></span> Fruta de verdad
+          </div>
+          <div class="story__tag story__tag--2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            Directo del freezer
+          </div>
+        </div>
+      </div>
+
+      <div class="story__copy reveal">
+        <span class="eyebrow">Nuestra historia</span>
+        <h2>Empezó como un experimento. <em>Terminó</em> en todos los freezers de la zona.</h2>
+        <p>Todo empezó preguntándonos por qué los bolos de siempre se terminaban tan rápido. La respuesta era simple: eran finos. Así que hicimos el nuestro con más fruta y más jugo adentro.</p>
+
+        <ul class="ticks">
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Fruta de verdad, no saborizante</li>
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Sin conservantes ni colorantes</li>
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Congelados el mismo día</li>
+        </ul>
+
+        <div class="signature">
+          <span class="signature__label">Hecho por</span>
+          <ul class="signature__list">
+            <li>Daniel Tasayco</li>
+            <li>Aron Palpa</li>
+            <li>Mathias Cisneros</li>
+            <li>Italo Soria</li>
+            <li>José Cama</li>
+            <li>Andrés Malpartida</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="opiniones">
+    <div class="wrap">
+      <header class="section__head section__head--center reveal">
+        <span class="eyebrow">Boca a boca</span>
+        <h2>Los que ya se <em>congelaron</em> la boca.</h2>
+        <p>Lo que dicen quienes ya probaron los bolos.</p>
+      </header>
+      <div class="quotes" id="quotesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="preguntas">
+    <div class="wrap faq">
+      <div class="faq__aside reveal">
+        <span class="eyebrow">Antes de pedir</span>
+        <h2>Las dudas <em>frecuentes</em>.</h2>
+        <p>¿Te quedó algo por preguntar? Escríbenos por WhatsApp y te contestamos en minutos (si no estamos llenando bolsitas).</p>
+        <a class="btn btn--ghost" data-wa href="#pedido">
+          Hablar con nosotros
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="faq__list reveal">
+        <details open>
+          <summary>¿Qué es un bolo, exactamente?</summary>
+          <p>Es un helado de jugo en bolsita. Más fruta y más jugo que el bolo común: rinde más, se disfruta más despacio y se come directo de la bolsita, sin plato ni cubiertos.</p>
+        </details>
+        <details>
+          <summary>¿Tienen conservantes o colorantes?</summary>
+          <p>No. Hacemos los bolos con fruta, agua, leche cuando el sabor la lleva y un poco de azúcar. Nada de colorantes ni conservantes. Por eso el color cambia un poco entre tandas: es fruta, no pintura.</p>
+        </details>
+        <details>
+          <summary>¿Puedo pedir para un evento o kiosco?</summary>
+          <p>¡Claro! Armamos packs desde 24 unidades, con entregas coordinadas para cumpleaños, colegios, oficinas y kioscos. Escríbenos por WhatsApp con fecha y cantidad y te pasamos una propuesta en el día.</p>
+        </details>
+        <details>
+          <summary>¿Cuánto cuesta el delivery?</summary>
+          <p>Envío gratis desde <span data-envio-gratis>S/ 25</span> en Magdalena del Mar y Pueblo Libre. Si tu pedido es menor, el delivery cuesta S/ 5. También puedes recoger sin cargo, coordinando por WhatsApp.</p>
+        </details>
+        <details>
+          <summary>¿Cómo se paga?</summary>
+          <p>Yape, Plin, transferencia o efectivo al recibir. Te pasamos los datos al confirmar el pedido por WhatsApp. No pedimos pagos por adelantado para pedidos pequeños.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--final" id="pedido">
+    <div class="wrap">
+      <div class="cta-panel reveal">
+        <div class="cta-panel__glow" aria-hidden="true"></div>
+        <div class="cta-panel__copy">
+          <span class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> ¿Se te antojó?</span>
+          <h2>Tu freezer está <em>esperando</em>.</h2>
+          <p>Arma tu pack en menos de un minuto y confírmalo por WhatsApp. Pedidos antes de las 15 h salen hoy mismo.</p>
+        </div>
+        <div class="cta-panel__actions">
+          <a class="btn btn--lime" href="#packs">Armar mi pack</a>
+          <a class="btn btn--outline-light" data-wa href="#pedido">Pedir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <a class="logo logo--footer" href="#inicio" aria-label="Bolo's, ir al inicio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40">
+            <circle cx="20" cy="20" r="19" fill="#C9F24D"/>
+            <circle cx="15" cy="15" r="3.1" fill="#0E2A2B"/>
+            <circle cx="25.4" cy="14.2" r="2.5" fill="#0E2A2B"/>
+            <circle cx="21" cy="23.4" r="2.8" fill="#0E2A2B"/>
+            <path d="M8.6 13.4a13 13 0 0 1 8.4-5.2" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">Bolo<span class="logo__apos">'</span>s</span>
+      </a>
+      <p class="footer__tagline">Helados de bolsita con fruta de verdad. Con más fruta, más jugo y más sabor que el resto.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram de Bolo's">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a data-wa href="#pedido" aria-label="WhatsApp de Bolo's">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.21 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.28-.2-.57-.34m-5.42 7.4a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88m8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.66a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.9a11.82 11.82 0 0 0-3.48-8.41z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer__col" aria-label="Tienda">
+      <h3>Tienda</h3>
+      <a href="#sabores">Sabores</a>
+      <a href="#packs">Packs y regalos</a>
+      <a href="#packs">Kioscos y eventos</a>
+      <a href="#opiniones">Opiniones</a>
+    </nav>
+
+    <nav class="footer__col" aria-label="Ayuda">
+      <h3>Ayuda</h3>
+      <a href="#preguntas">Envíos y entregas</a>
+      <a href="#preguntas">Conservación</a>
+      <a href="#preguntas">Formas de pago</a>
+      <a data-wa href="#pedido">Contacto</a>
+    </nav>
+
+    <div class="footer__col footer__col--contact">
+      <h3>Contacto</h3>
+      <a data-wa href="#pedido">+51 904 647 219</a>
+      <p>Magdalena del Mar, Lima, Perú<br>Lunes a domingo · 10 a 20 h</p>
+    </div>
+  </div>
+
+  <div class="wrap footer__bottom">
+    <p>© <span id="year">2026</span> Bolo's · Fruta, frío y felicidad.</p>
+    <div class="footer__legal">
+      <a href="#">Términos</a>
+      <a href="#">Privacidad</a>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" id="overlay" hidden></div>
+
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+  <header class="drawer__head">
+    <div>
+      <p class="drawer__kicker">Bolo's</p>
+      <h2 id="drawerTitle">Tu pedido</h2>
+    </div>
+    <button class="icon-btn drawer__close" id="closeCart" type="button" aria-label="Cerrar mi pedido">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </header>
+
+  <div class="drawer__free" id="freeShip">
+    <p id="freeMsg">Suma bolos para tu envío gratis</p>
+    <div class="progress"><span id="freeBar"></span></div>
+  </div>
+
+  <div class="drawer__scroll" id="drawerScroll">
+    <div class="cart-items" id="cartItems"></div>
+
+    <div class="cart-empty" id="cartEmpty">
+      <div class="cart-empty__art" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h18v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 8l2-4h14l2 4M8 8v11M16 8v11"/></svg>
+      </div>
+      <h3>Tu freezer está vacío</h3>
+      <p>Suma tus bolos favoritos y armamos el pedido juntos.</p>
+      <button class="btn btn--primary" type="button" data-close-cart>Ver sabores</button>
+    </div>
+
+    <form class="order-form" id="orderForm" novalidate>
+      <p class="order-form__title">Datos para la entrega</p>
+      <div class="field">
+        <label for="nombre">Tu nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Camila" required>
+      </div>
+      <div class="field">
+        <label for="entrega">¿Cómo lo quieres?</label>
+        <select id="entrega" name="entrega">
+          <option value="Envío a domicilio">Envío a domicilio</option>
+          <option value="Retiro en tienda">Retiro en tienda (sin cargo)</option>
+        </select>
+      </div>
+      <div class="field" id="addressField">
+        <label for="direccion">Dirección y distrito</label>
+        <input id="direccion" name="direccion" type="text" autocomplete="street-address" placeholder="Ej. Av. Sucre 123, Magdalena del Mar">
+      </div>
+      <div class="field">
+        <label for="notas">Notas <span>(opcional)</span></label>
+        <textarea id="notas" name="notas" rows="2"></textarea>
+      </div>
+    </form>
+  </div>
+
+  <footer class="drawer__foot">
+    <div class="drawer__breakdown" id="cartBreakdown" hidden>
+      <div class="drawer__row"><span>Subtotal</span><span id="cartSubtotal">S/ 0</span></div>
+      <div class="drawer__row"><span>Delivery</span><span id="cartShipping">S/ 5</span></div>
+    </div>
+    <div class="drawer__total">
+      <span>Total</span>
+      <strong id="cartTotal">S/ 0</strong>
+    </div>
+    <p class="drawer__hint">Confirmamos stock y forma de pago por WhatsApp. Yape, Plin, transferencia o efectivo al recibir.</p>
+    <button class="btn btn--wa" type="submit" form="orderForm" id="checkoutBtn">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.21 3.07.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.28-.2-.57-.34m-5.42 7.4a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88m8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.66a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.9a11.82 11.82 0 0 0-3.48-8.41z"/></svg>
+      Finalizar por WhatsApp
+    </button>
+  </footer>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<script src="script.js"></script>
+</body>
+</html>
